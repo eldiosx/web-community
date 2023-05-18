@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-<!--POWERED BY IGNISUS-->
 
 <head>
     <!--METAS-->
@@ -24,7 +23,7 @@
     <!--SCRIPTS-->
     <script src="../js/jquery-3.6.3.js"></script>
     <script src="../js/loader.js"></script>
-    <title>PokeSpaña | Fanmade basado en pokemon.</title>
+    <title>PokeSpain</title>
 </head>
 
 <body>
@@ -37,8 +36,6 @@
                 <i class="icon-sun"></i>
                 <i class="icon-moon-o"></i>
             </label>
-        </div>
-        <div class="login"><a class="login_text" href="../login/index">Entrar | Registrarse</a>
         </div>
     </div>
     <!--Login-->
@@ -202,6 +199,12 @@
     <script>
         $(document).ready(function () {
             $('.menuContainerLogin').load('./login.html');
+        });
+    </script>
+    <script>
+        //Add login
+        $(document).ready(function () {
+            $('.menuContainerLogin').load('../login.html');
         });
     </script>
 </body>
